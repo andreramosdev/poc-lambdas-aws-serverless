@@ -1,6 +1,7 @@
 # pocLambdasAws
 Simple application using lambda and Serverless framework to expose a HTTP endpoint and execute lambda functions
-It consists on two lambdas/endpoints, one to store a sentence in DynamoDB table, and another to return a XML response with the sentence currently stored.
+
+It consists of 2 lambdas/endpoints, one to store a sentence in DynamoDB table, and another to return a XML response with the sentence currently stored.
 
 Requirements;
 
@@ -14,7 +15,8 @@ It will prompt for AWS secrets in case if you havent configured. Please, refer t
 
 2. Wait the deploy to be completed
 3. Copy the URL of the deployed app in AWS
-4. Test on endpoints on postman
+4. Test the endpoints on postman
 
-* POST /dev/sentence will persist a sentence on DynamoDB. When you invoke GET /dev/sentence, it will return a XML response wrapping the sentence you provided in POST
+* POST /dev/sentence will persist a sentence on DynamoDB.
+When you invoke GET /dev/sentence, it will return a XML response wrapping the sentence you provided in POST
 
