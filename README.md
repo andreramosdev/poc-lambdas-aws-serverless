@@ -8,7 +8,7 @@ It consists of 2 lambdas/endpoints, one to store a sentence in DynamoDB table, a
 Install npm and serverless package:
 npm install serverless
 
-## Deploying the app on AWS with serverless:
+## Deploying the app on AWS with serverless
 
 1. run 'serverless deploy' on command line
 It will prompt for AWS secrets in case if you havent configured. Please, refer to https://www.serverless.com/framework/docs/providers/aws/guide/credentials
